@@ -907,18 +907,18 @@ ARM Macro Assembler    Page 14
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
 erwork --depend="stm32f4_msd configuration/\startup_stm32f439xx.d" -o"stm32f4_m
-sd configuration/\startup_stm32f439xx.o" -ID:\Work\_SD_Interface\W_SD\MDK-ARM\R
+sd configuration/\startup_stm32f439xx.o" -ID:\Work\_SD_Interface\mSD\MDK-ARM\RT
 
 
 
 ARM Macro Assembler    Page 15 
 
 
-TE -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Ke
-il\STM32F4xx_DFP\2.4.0 --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA
- 1" --predefine="__UVISION_VERSION SETA 514" --predefine="_RTE_ SETA 1" --prede
-fine="STM32F439xx SETA 1" --list=startup_stm32f439xx.lst ../Drivers/CMSIS/Devic
-e/ST/STM32F4xx/Source/Templates/arm/startup_stm32f439xx.s
+E -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Kei
+l\STM32F4xx_DFP\2.4.0 --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 
+1" --predefine="__UVISION_VERSION SETA 514" --predefine="_RTE_ SETA 1" --predef
+ine="STM32F439xx SETA 1" --list=startup_stm32f439xx.lst ../Drivers/CMSIS/Device
+/ST/STM32F4xx/Source/Templates/arm/startup_stm32f439xx.s
 
 
 
